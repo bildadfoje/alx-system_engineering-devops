@@ -1,0 +1,4 @@
+#!/bin/bash
+file="ls_cwd_content"
+ls -al > "$file"
+echo "ls -a output writtn to '$file'."
